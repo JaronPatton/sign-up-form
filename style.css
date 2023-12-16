@@ -42,8 +42,9 @@ div {
 }
 
 #third-div {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(247, 247, 247);
-
 }
 
 #logo-overlay {
