@@ -61,7 +61,7 @@ div {
 
 button {
   border-radius: 7px;
-  background-color: #34A65F;
+  background-color: #0F8A5F;
   color: snow;
   padding: 10px 40px;
   width: 200px;
@@ -89,4 +89,9 @@ svg,
 path {
   fill: snow;
   width: 20px;
+}
+
+
+a {
+  color: #34A65F
 }
