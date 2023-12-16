@@ -37,6 +37,15 @@ div {
   border: 2px solid black;
 }
 
+#first-div {
+  background-color: rgb(247, 247, 247);
+}
+
+#third-div {
+  background-color: rgb(247, 247, 247);
+
+}
+
 #logo-overlay {
   align-items: center;
   justify-content: center;
