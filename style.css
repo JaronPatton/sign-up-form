@@ -1,0 +1,34 @@
+body {
+  border: 2px solid black;
+  display: flex;
+  box-sizing: border-box;
+  /* probably need to add this just to the div needed later*/
+}
+
+.flex-container {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+#left-column {
+  height: 100vh;
+  width: 40vw;
+  background-image: url('./assets/golden.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#right-column {
+  width: 60vw;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+#right-column div {
+  height: 100vh;
+  border: 2px solid black;
+}
