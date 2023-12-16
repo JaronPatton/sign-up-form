@@ -3,11 +3,11 @@
   src: url(assets/MountainsofChristmas-Bold.ttf);
 }
 
-body {
+body,
+div {
   border: 2px solid black;
   display: flex;
   box-sizing: border-box;
-  /* probably need to add this just to the div needed later*/
 }
 
 .flex-container {
@@ -15,16 +15,14 @@ body {
   flex: 1;
   height: 100vh;
   width: 100vw;
-
 }
 
 #left-column {
   height: 100vh;
   width: 40vw;
-  background-image: url('./assets/golden.png');
   background-size: cover;
   background-position: center;
-  font-family: 'MountainsofChristmas-Bold', sans-serif;
+  background-image: url('./assets/golden.png');
 }
 
 #right-column {
@@ -37,4 +35,12 @@ body {
 #right-column div {
   height: 100vh;
   border: 2px solid black;
+}
+
+#logo-overlay {
+  font-family: 'MountainsofChristmas-Bold', sans-serif;
+  position: absolute;
+  top: 150px;
+  height: 100px;
+  width: 270px;
 }
