@@ -45,7 +45,16 @@ div {
   display: flex;
   flex-direction: column;
   background-color: rgb(247, 247, 247);
+  align-items: start;
+  padding: 20px;
 }
+
+button {
+  border-radius: 5%;
+  background-color: #34A65F;
+  color: snow;
+}
+
 
 #logo-overlay {
   align-items: center;
