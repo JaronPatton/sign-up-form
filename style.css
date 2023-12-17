@@ -80,6 +80,14 @@ input {
   border: 1px solid rgba(211, 211, 211, 0.716);
 }
 
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+
 #third-div {
   display: flex;
   flex-direction: column;
