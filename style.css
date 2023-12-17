@@ -9,7 +9,8 @@ div {
   box-sizing: border-box;
 }
 
-p {
+p,
+label {
   font-size: x-large;
   font-family: sans-serif;
 }
