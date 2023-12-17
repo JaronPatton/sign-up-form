@@ -16,7 +16,8 @@ label {
 }
 
 #do-it {
-  margin: 0px;
+  margin-bottom: 25px;
+  margin-top: 0px;
 }
 
 label {
@@ -62,7 +63,7 @@ label {
 #second-div {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .form {
