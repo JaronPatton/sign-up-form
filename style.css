@@ -92,10 +92,6 @@ input:invalid {
   border-color: red;
 }
 
-input:valid {
-  border-color: green;
-}
-
 #third-div {
   display: flex;
   flex-direction: column;
