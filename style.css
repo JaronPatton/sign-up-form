@@ -9,6 +9,10 @@ div {
   box-sizing: border-box;
 }
 
+p {
+  font-size: x-large;
+}
+
 .flex-container {
   display: flex;
   flex: 1;
@@ -47,6 +51,22 @@ div {
 #second-div {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-right: 200px;
+}
+
+input,
+label {
+  width: 250px;
+  height: 20px;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
 #third-div {
@@ -55,6 +75,7 @@ div {
   background-color: rgb(247, 247, 247);
   align-items: start;
   padding: 10px;
+  box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1)
 }
 
 button {
