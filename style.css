@@ -88,9 +88,20 @@ input {
   border: 1px solid rgba(211, 211, 211, 0.716);
 }
 
-input:invalid {
-  border-color: red;
+*,
+*:focus,
+*:hover {
+  outline: none;
 }
+
+input:focus:valid {
+  border: 2px solid #34A65F;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
 
 #third-div {
   display: flex;
