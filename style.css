@@ -15,6 +15,10 @@ label {
   font-family: sans-serif;
 }
 
+#do-it {
+  margin: 0px;
+}
+
 label {
   color: rgb(76 75 75)
 }
@@ -63,9 +67,12 @@ label {
 
 .form {
   display: flex;
+  justify-content: space-between;
+  align-items: stretch;
   flex-wrap: wrap;
   flex-direction: column;
   padding-right: 200px;
+  height: 150px;
 }
 
 input,
