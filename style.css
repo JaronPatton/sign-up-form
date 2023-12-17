@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'MountainsofChristmas-Bold';
+  font-family: 'MountainsofChristmas-Bold', Arial, sans-serif;
   src: url(assets/MountainsofChristmas-Bold.ttf);
 }
 
@@ -11,6 +11,7 @@ div {
 
 p {
   font-size: x-large;
+  font-family: sans-serif;
 }
 
 .flex-container {
@@ -111,6 +112,9 @@ path {
   width: 20px;
 }
 
+#link-lable {
+  font-size: large;
+}
 
 a {
   color: #34A65F
